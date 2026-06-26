@@ -1,5 +1,9 @@
 # 🧮 Claude Counter
 
+<div align="center">
+  <img src="./claude-counter-my-own/icons/icon128.png" alt="Claude Counter Logo" width="128" height="128" style="margin: 20px 0;">
+</div>
+
 > **Live token counting, cache tracking, and precise usage analytics for Claude.ai**  
 > A lightweight browser extension that brings transparency to your Claude API consumption with real-time insights and accurate progress tracking.
 
@@ -80,7 +84,7 @@ The extension operates silently in the background, providing real-time insights:
 
 - **API Interception**: Intercepts Claude's API responses to extract conversation data and usage information
 - **Smart Tokenization**: Uses a vendored tokenizer (`o200k_base`) for accurate token counting
-- **Live Accuracy**: Leverages Claude's `/usage` endpoint plus real-time SSE `message_limit` data to provide exact, unrounded utilization fractions—making progress bars more accurate than the rounded percentages on the native /usage page
+- **Live Accuracy**: Leverages Claude's `/usage` endpoint plus real-time SSE `message_limit` data to provide exact, unrounded utilization fractions—making progress bars more accurate than the rounded percentages
 - **DOM Injection**: Watches for page changes and injects UI elements as you navigate claude.ai
 - **Zero Network Overhead**: Makes requests only to claude.ai—no external servers
 
